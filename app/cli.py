@@ -35,3 +35,4 @@ def register(app):
             raise RuntimeError('compile command failed')
 
 
+

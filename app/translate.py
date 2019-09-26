@@ -18,5 +18,3 @@ def translate(text, source_language, dest_language):
         return _('Error: the translation service failed.')
     return json.loads(r.content.decode('utf-8-sig'))
 
-
-
